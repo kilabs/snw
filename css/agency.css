@@ -232,7 +232,17 @@ header {
   color: white;
 }
 header .intro-text {
+  padding-top: 100px;
   padding-bottom: 50px;
+}
+header .intro-text .introduce {
+  position: absolute;
+  float: left;
+  color: #282528;
+  text-align: left;
+}
+header .intro-text .introduce li {
+  padding: 10px;
 }
 header .intro-text .tv-area {
   margin-top: -40px;
