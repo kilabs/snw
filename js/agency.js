@@ -24,3 +24,41 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+$(function(){
+    
+        $(".tombol-free-voucher").click(function(e){
+            e.preventDefault();
+            statusOpen = $(this).hasClass("open");
+            if (statusOpen) {
+                $(this).removeClass("open");
+                $(".form-popup").stop(true,true).animate({
+                    width:0,
+                    height:0
+                },300).css("padding","0");
+            }
+            else{
+                $(this).addClass("open");
+                $(".form-popup").stop(true,true).animate({
+                    width:350,
+                    height:220
+                },300).css("padding","15px 20px");                
+            }            
+        });
+        //$(window).scroll(function(){
+        //    $(".tombol-free-voucher").removeClass("open");
+        //    $(".form-popup").delay(1000).stop(true,true).animate({
+        //        width:0,
+        //        height:0
+        //    },300,function(){$(this).css("padding","0")});
+        //});
+        $(".minus-popup").click(function(e){
+            e.preventDefault();
+            $(".tombol-free-voucher").removeClass("open");
+            $(".form-popup").stop(true,true).animate({
+                width:0,
+                height:0
+            },300).css("padding","0");            
+        });
+    
+})

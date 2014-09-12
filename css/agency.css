@@ -774,3 +774,25 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #fed136;
 }
+.bottom-left-position {
+  position: fixed;
+  left: 0;
+  bottom: 0px;
+}
+.form-popup {
+  height: 220px;
+  bottom: 33px;
+  width: 350px;
+  padding: 15px 20px;
+  z-index: 55;
+  border: 2px solid #008cc8;
+  border-left-width: 0;
+  text-align: left;
+  overflow: hidden;
+  background: url("../images/sos.png");
+}
+.newspopup {
+  padding: 2px 2px 0 0;
+  background: #008cc8;
+  z-index: 2;
+}
