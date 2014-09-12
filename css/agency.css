@@ -299,6 +299,11 @@ header .intro-text .intro-heading {
     color: #000;
   }
 }
+.submit-button {
+  margin-top: 70px;
+  color: #000;
+  margin-bottom: 70px;
+}
 section {
   padding: 100px 0;
 }
