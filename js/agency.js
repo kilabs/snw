@@ -26,7 +26,7 @@ $('.navbar-collapse ul li a').click(function() {
 });
 
 $(function(){
-	
+
 	$(".tombol-free-voucher").click(function(e){
 		e.preventDefault();
 		statusOpen = $(this).hasClass("open");
@@ -41,7 +41,7 @@ $(function(){
 			$(this).addClass("open");
 			$(".form-popup").stop(true,true).animate({
 				width:350,
-				height:320
+				height:420,
 			},300).css("padding","15px 20px");                
 		}            
 	});
