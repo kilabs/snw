@@ -41,7 +41,7 @@ $(function(){
 			$(this).addClass("open");
 			$(".form-popup").stop(true,true).animate({
 				width:350,
-				height:520,
+				height:530,
 			},300).css("padding","15px 20px");                
 		}            
 	});

@@ -191,6 +191,10 @@ header {
 		}
 		.ribbon-area{
 			margin-top: -10px;
+				p{
+				color: #000;
+				font-size: 18px;
+			}
 		}
 		.yellow-box{
 			.top-text{
@@ -206,10 +210,17 @@ header {
 			}
 			.inbox{
 				background: #f9e312;
-				padding: 40px 10px;
+				padding: 40px 10px 20px 10px;
+				li{
+					text-align: left;
+					margin-bottom: 10px;
+					text-transform: none;
+					color: #000;
+
+				}
 				p{
 					text-transform: none;
-					font-size: 16px;
+					font-size: 12px;
 					color: #282528;
 				}
 			}
@@ -228,35 +239,13 @@ header {
 			.heading-font;
 			font-weight: 700;
 			font-size: 30px;
-			line-height: 50px;
-			margin-bottom: 25px;
+			color: #000;
+		
 		}
 	}
 }
 
-@media(min-width:768px) {
-	header {
-		.intro-text {
-			// padding-top: 300px;
-			padding-bottom: 200px;
-			.intro-lead-in {
-				.serif-font;
-				font-style: italic;
-				font-size: 40px;
-				line-height: 40px;
-				margin-bottom: 25px;
-			}
-			.intro-heading {
-				.heading-font;
-				font-weight: 700;
-				font-size: 45px;
-				line-height: 75px;
-				margin-bottom: 50px;
-				color: #000;
-			}
-		}
-	}
-}
+
 
 // Global Section Styles
 .submit-button{
@@ -265,7 +254,7 @@ header {
 	margin-bottom: 70px;
 }
 section {
-	padding: 100px 0;
+	padding: 70px 0;
 	h2.section-heading {
 		font-size: 40px;
 		margin-top: 0;
@@ -279,12 +268,6 @@ section {
 		line-height: 46px;
 		font-weight: 400;
 		margin-bottom: 75px;
-	}
-}
-
-@media(min-width:768px) {
-	section {
-		padding: 150px 0;
 	}
 }
 
@@ -779,7 +762,7 @@ body {
 	bottom: 0px;
 }
 .form-popup {
-	height: 520px;
+	height: 530px;
 	bottom: 30px;
 	width: 350px;
 	padding: 15px 20px;
@@ -820,6 +803,8 @@ body {
 .form-subtitle{
 	color: #fff;
 	font-weight: 100;
+	text-transform: none;
+	line-height: 25px;
 }
 #mc_embed_signup {
 	.button{
