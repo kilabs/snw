@@ -780,7 +780,7 @@ body {
   bottom: 0px;
 }
 .form-popup {
-  height: 420px;
+  height: 520px;
   bottom: 30px;
   width: 350px;
   padding: 15px 20px;
@@ -789,6 +789,18 @@ body {
   text-align: left;
   overflow: hidden;
   background: #003f6f;
+}
+.form-popup .indicates-required {
+  color: #fff;
+}
+.form-popup #mce-MMERGE2 {
+  padding: 20px;
+}
+.form-popup label {
+  color: #fff;
+}
+.form-popup #mc_embed_signup {
+  background-color: transparent;
 }
 .newspopup {
   padding: 2px 2px 0 0;
@@ -809,4 +821,7 @@ body {
 .form-subtitle {
   color: #fff;
   font-weight: 100;
+}
+#mc_embed_signup .button {
+  background: #fec503;
 }
